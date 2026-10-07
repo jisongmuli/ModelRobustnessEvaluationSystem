@@ -1,0 +1,28 @@
+# FastAPI
+fastapi>=0.115,<1
+uvicorn[standard]==0.27.0
+python-multipart>=0.0.18,<1
+
+# PyTorch (CPU版本，如需GPU请安装对应版本)
+torch>=2.0.0
+torchvision>=0.15.0
+
+# 对抗攻击
+torchattacks==3.5.1
+
+# 数据处理
+numpy>=1.24.0
+Pillow>=10.0.0
+
+# 工具
+pydantic>=2.0.0
+aiofiles>=23.0.0
+
+# 数据库
+pymysql>=1.1.0
+cryptography>=41.0.0
+
+# Persistence, authentication and private local configuration
+SQLAlchemy>=2.0,<3
+bcrypt>=4,<6
+python-dotenv>=1,<2
